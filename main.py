@@ -5,7 +5,6 @@ def login(usuario, senha):
     if not (6 <= len(senha) <= 10):
         return "Erro: senha deve ter entre 6 e 10 caracteres."
 
-    # BANCON DE DADOS: SIMULADO
     usuario_valido = "admin"
     senha_valida = "123456"
 
