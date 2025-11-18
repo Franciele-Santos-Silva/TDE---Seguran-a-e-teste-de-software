@@ -18,12 +18,12 @@ Além disso, o código executa testes automáticos organizados em duas técnicas
 
 ### Particionamento de Equivalência
 
-Garante que entradas representativas de cada classe (válidas e inválidas) sejam testadas.
+Garante que entradas representativas de cada classe válidas e inválidas sejam testadas.
 
 ### Análise de Valor Limite
 
 Testa valores exatamente nos limites e imediatamente acima/abaixo deles.
 
-## Executando os Testes
+## Executar Testes
 
     python main.py
