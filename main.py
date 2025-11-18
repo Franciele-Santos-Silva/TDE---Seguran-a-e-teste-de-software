@@ -6,6 +6,7 @@ def login(usuario, senha):
         return "Erro: senha deve ter entre 6 e 10 caracteres."
 
     # BANCON DE DADOS: SIMULADO
+    
     usuario_valido = "admin"
     senha_valida = "123456"
 
@@ -14,10 +15,6 @@ def login(usuario, senha):
     else:
         return "Erro: credenciais inválidas."
 
-
-# -------------------------------
-# TESTES: PARTICIONAMENTO
-# -------------------------------
 print("\n=== TESTES - PARTICIONAMENTO DE EQUIVALÊNCIA ===\n")
 
 testes_particionamento = [
@@ -34,9 +31,6 @@ for usuario, senha in testes_particionamento:
     print("Resultado:", login(usuario, senha))
     print("-" * 50)
 
-# -------------------------------
-# TESTES: VALOR LIMITE
-# -------------------------------
 print("\n=== TESTES - ANÁLISE DE VALOR LIMITE ===\n")
 
 testes_limite = [
